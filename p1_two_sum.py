@@ -9,10 +9,9 @@
 # Because nums[0] + nums[1] = 2 + 7 = 9,
 # return [0, 1].
 
-from timer import func_timer
+
 
 class Solution:
-    @func_timer
     def twoSum(self, nums, target):
         '''def twoSum(self, nums: List[int], target: int) -> List[int]:
         hash map, O(n)'''
