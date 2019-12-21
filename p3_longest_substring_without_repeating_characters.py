@@ -37,9 +37,7 @@ class Solution:
                     count += 1
                 appeared[value] = key
 
-            result = max(result, count)
-            # print('char:',value,'result:',result,', count:', count,', mark:',mark, ', appeared:',appeared)
-            
+            result = max(result, count)            
         return result
 
 
