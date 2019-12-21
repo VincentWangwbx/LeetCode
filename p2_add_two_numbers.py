@@ -8,7 +8,7 @@
 # Output: 7 -> 0 -> 8
 # Explanation: 342 + 465 = 807.
 
-from timer import func_timer
+
 
 class Solution:
     def addTwoNumbers(self, l1, l2):
